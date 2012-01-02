@@ -11,3 +11,8 @@ DB name, credentials and the query. The query can be any SQL statement
 (so use the utility cautiously). If the statement is a select, the 
 utility will write the results of the first column only into the log. 
 All other columns are ignored sine this is meant to simply verify we can get data.
+
+How to use: 
+Just execute the SQLTester.exe on Windows. (The utility is written in .NET
+so if you get an error while executing the app, make sure you have the .NET 
+framework installed.)
