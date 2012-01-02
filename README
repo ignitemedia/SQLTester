@@ -1,0 +1,12 @@
+.NET application tests connectivity to a Microsoft SQL server. 
+It provides the ability to test connectivity only, or to perform a 
+read query in addition to a connectivity test. Tests can also be looped.  
+The application logs data to normal.log and error.log located in 
+the same directory as from which the app is executed. If errors occur, 
+the app logs to error.log. Otherwise data is logged to normal.log. 
+
+To begin testing users press enter and provide several parameters such as host,
+DB name, credentials and the query. The query can be any SQL statement
+(so use the utility cautiously). If the statement is a select, the 
+utility will write the results of the first column only into the log. 
+All other columns are ignored sine this is meant to simply verify we can get data.
