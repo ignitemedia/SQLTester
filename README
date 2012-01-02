@@ -5,7 +5,8 @@ The application logs data to normal.log and error.log located in
 the same directory as from which the app is executed. If errors occur, 
 the app logs to error.log. Otherwise data is logged to normal.log. 
 
-To begin testing users press enter and provide several parameters such as host,
+To begin testing execute the SQLTester and in the shell type 'test'. 
+You will asked to provide several parameters such as host,
 DB name, credentials and the query. The query can be any SQL statement
 (so use the utility cautiously). If the statement is a select, the 
 utility will write the results of the first column only into the log. 
