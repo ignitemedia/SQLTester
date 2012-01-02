@@ -92,7 +92,9 @@ namespace SQLTester.Managers
             Console.WriteLine("the same directory as from which the app is executed. If errors occur, ");
             Console.WriteLine("the app logs to error.log. Otherwise data is logged to normal.log. ");
             Console.WriteLine("");
-            Console.WriteLine("To begin testing users press enter and provide several parameters such as host,");
+
+            Console.WriteLine("To begin testing execute the SQLTester and in the shell type 'test'. ");
+            Console.WriteLine("You will asked to provide several parameters such as host,");
             Console.WriteLine("DB name, credentials and the query. The query can be any SQL statement");
             Console.WriteLine("(so use the utility cautiously). If the statement is a select, the ");
             Console.WriteLine("utility will write the results of the first column only into the log. ");
